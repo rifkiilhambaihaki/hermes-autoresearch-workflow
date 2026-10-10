@@ -1,0 +1,17 @@
+# Keep repository text deterministic across platforms.
+* text=auto eol=lf
+
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Treat common media formats as binary if they are added deliberately.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
